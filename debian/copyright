@@ -1,11 +1,11 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: pardus-gtk-theme
-Source: https://www.pardus.org.tr
-
+Upstream-Name: pardus-xfce-gtk-theme
+Upstream-Contact: Fatih Altun <fatih.altun@pardus.org.tr>
+Source: https://github.com/pardus/pardus-xfce-gtk-theme
 
 
 Files: *
-Copyright: 2021 TÜBİTAK ULAKBİM <gelistirici@pardus.org.tr>
+Copyright: 2023, Pardus <dev@pardus.org.tr>
 License: GPL-3.0+
 
 License: GPL-3.0+

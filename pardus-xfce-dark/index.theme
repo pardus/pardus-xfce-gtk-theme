@@ -1,0 +1,11 @@
+[X-GNOME-Metatheme]
+Name=Pardus Xfce Dark
+Name[tr]=Pardus Xfce Koyu
+Type=X-GNOME-Metatheme
+Comment=Dark GTK theme for Pardus Xfce
+Comment[tr]=Pardus Xfce için koyu GTK teması
+Encoding=UTF-8
+GtkTheme=pardus-xfce-dark
+IconTheme=pardus-xfce-dark
+CursorTheme=pardus-xfce-dark
+CursorSize=24

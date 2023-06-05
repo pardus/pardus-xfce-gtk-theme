@@ -5,20 +5,16 @@ nomake:
 
 install:
 	mkdir -p $(DESTDIR)/usr/share/themes
-	@cp -fr pardus $(DESTDIR)/usr/share/themes/
-	@cp -fr pardus-default $(DESTDIR)/usr/share/themes/
-	@cp -fr pardus-default-hdpi $(DESTDIR)/usr/share/themes/
-	@cp -fr pardus-dark $(DESTDIR)/usr/share/themes/
-	@cp -fr pardus-dark-default $(DESTDIR)/usr/share/themes/
-	@cp -fr pardus-dark-default-hdpi $(DESTDIR)/usr/share/themes/
+	@cp -fr pardus-xfce $(DESTDIR)/usr/share/themes/
+	@cp -fr pardus-xfce-default-hdpi $(DESTDIR)/usr/share/themes/
+	@cp -fr pardus-xfce-dark $(DESTDIR)/usr/share/themes/
+	@cp -fr pardus-xfce-dark-default-hdpi $(DESTDIR)/usr/share/themes/
 
 uninstall:
-	@rm -fr $(DESTDIR)/usr/share/themes/pardus
-	@rm -fr $(DESTDIR)/usr/share/themes/pardus-default
-	@rm -fr $(DESTDIR)/usr/share/themes/pardus-default-hdpi
-	@rm -fr $(DESTDIR)/usr/share/themes/pardus-dark
-	@rm -fr $(DESTDIR)/usr/share/themes/pardus-dark-default
-	@rm -fr $(DESTDIR)/usr/share/themes/pardus-dark-default-hdpi
+	@rm -fr $(DESTDIR)/usr/share/themes/pardus-xfce
+	@rm -fr $(DESTDIR)/usr/share/themes/pardus-xfce-default-hdpi
+	@rm -fr $(DESTDIR)/usr/share/themes/pardus-xfce-dark
+	@rm -fr $(DESTDIR)/usr/share/themes/pardus-xfce-dark-default-hdpi
 
 .PHONY: install uninstall
 

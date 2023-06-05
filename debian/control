@@ -1,13 +1,16 @@
-Source: pardus-gtk-theme
+Source: pardus-xfce-gtk-theme
 Section: x11
 Priority: optional
 Maintainer: Fatih Altun <fatih.altun@pardus.org.tr>
-Build-Depends: debhelper (>= 10)
-Standards-Version: 4.5.0
-Homepage: https://www.pardus.org.tr
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.1
+Homepage: https://github.com/pardus/pardus-xfce-gtk-theme
 
-Package: pardus-gtk-theme
+Package: pardus-xfce-gtk-theme
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Pardus GTK Theme for Pardus desktop environment.
- This package contains Pardus GTK Themes.
+Description: Pardus XFCE GTK Theme for Pardus desktop environment.
+ This package contains Pardus XFCE GTK Themes.
+Provides: pardus-gtk-theme
+Conflicts: pardus-gtk-theme
+Replaces: pardus-gtk-theme

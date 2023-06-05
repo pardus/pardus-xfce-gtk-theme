@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Name=Pardus Xfce
+Type=X-GNOME-Metatheme
+Comment=GTK theme for Pardus Xfce
+Comment[tr]=Pardus Xfce için GTK teması
+Encoding=UTF-8
+GtkTheme=pardus-xfce
+IconTheme=pardus-xfce
+CursorTheme=pardus-xfce
+CursorSize=24

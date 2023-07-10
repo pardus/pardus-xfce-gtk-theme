@@ -1,3 +1,10 @@
+pardus-xfce-gtk-theme (1.0.0) unstable; urgency=medium
+
+  * Change name to pardus-xfce-gtk-theme
+  * Rm pardus-software css
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Mon, 10 Jul 2023 16:59:50 +0300
+
 pardus-gtk-theme (0.1.6) unstable; urgency=medium
 
   * Add pardus-software listbox, flowbox styles

@@ -1,3 +1,9 @@
+pardus-xfce-gtk-theme (1.0.1) unstable; urgency=medium
+
+  * Fix assets path
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Fri, 03 Nov 2023 15:23:03 +0300
+
 pardus-xfce-gtk-theme (1.0.0) unstable; urgency=medium
 
   * Change name to pardus-xfce-gtk-theme
